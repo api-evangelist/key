@@ -1,7 +1,14 @@
 aid: key
 name: Key
-description: Key is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Key AI is a professional networking platform that rebuilds business connection-making
+  around AI and consent-based introductions. Its Kai AI agent surfaces the right people through
+  warm paths in your existing network, while Handshake handles consent-first introductions
+  (launching summer 2026). The platform also offers matched Opportunities (jobs, deals, and
+  partnerships), branded Communities and directories for alumni groups and associations,
+  event and calendar pre-matching, a searchable knowledge Library, and Connectors for Slack,
+  WhatsApp, and LinkedIn. Founded by Google alumni behind the 35,000-member Xoogler community
+  and backed by Felicis, Key AI is an end-user and community-operator product; as of July 2026
+  it publishes no public API, developer platform, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/key/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,29 @@ x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.key.ai/assets/og/og-default.png?ogcb=20260606
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Professional Networking
+- Artificial Intelligence
+- Community
+- Introductions
+- Networking
+- B2B SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/key-domain-security.yml
 - type: Website
   url: https://key.ai
+- type: Blog
+  url: https://key.ai/blog/
+- type: Support
+  url: https://key.ai/help/
+- type: Pricing
+  url: https://key.ai/pricing
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
